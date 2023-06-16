@@ -12,6 +12,8 @@ module.exports = {
       heading3: "3.55rem",
       heading4: "2rem",
       heading5: "9.375rem",
+      subheading2: "0.875rem",
+      navtext: "1rem"
     },
     fontFamily: {
       'Bellefair': ['Bellefair', 'serif'],

@@ -2,6 +2,30 @@
 
 @tailwind base;
 @tailwind components;
+h1 {
+  @apply font-Bellefair text-white text-heading1;
+}
+h2 {
+  @apply font-Bellefair text-white text-heading2;
+}
+h3 {
+  @apply font-Bellefair text-white text-heading3;
+}
+h4 {
+  @apply font-Bellefair text-white text-heading4;
+}
+h5 {
+  @apply font-Barlow text-white text-heading5 tracking-[4.75];
+}
+.subHeading1 {
+  @apply font-Bellefair text-white text-heading1;
+}
+.subHeading2 {
+  @apply font-Barlow text-white text-subheading2 tracking-[2.35];
+}
+.navText {
+  @apply font-Barlow text-white text-navtext tracking-[2.7];
+}
 @tailwind utilities;
 
 #root {
