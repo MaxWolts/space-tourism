@@ -15,16 +15,16 @@ h4 {
   @apply font-Bellefair text-white text-heading4;
 }
 h5 {
-  @apply font-Barlow text-white text-heading5 tracking-[4.75];
+  @apply font-Barlow text-white text-heading5 tracking-[4.75px];
 }
 .subHeading1 {
   @apply font-Bellefair text-white text-heading1;
 }
 .subHeading2 {
-  @apply font-Barlow text-white text-subheading2 tracking-[2.35];
+  @apply font-Barlow text-white text-subheading2 tracking-[2.35px];
 }
 .navText {
-  @apply font-Barlow text-white text-navtext tracking-[2.7];
+  @apply font-Barlow text-white text-navtext tracking-[2.7px];
 }
 @tailwind utilities;
 
@@ -35,4 +35,14 @@ h5 {
 body {
   min-width: 320px;
   min-height: 100vh;
+}
+.Home__background-mobile {
+  height: 100vh;
+  background-image: url('/assets/home/background-home-mobile.jpg');
+}
+.glass {
+  background: rgba(151, 151, 151, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
