@@ -28,7 +28,7 @@ export const Header = () => {
             </li>
             <li className="navText m-8">
               <strong>01 </strong>
-              <Link href={"/destination"}>DESTINATION</Link>
+              <Link href={"/destination/1"}>DESTINATION</Link>
             </li>
             <li className="navText m-8">
               <strong>02 </strong>

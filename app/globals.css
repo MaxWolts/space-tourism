@@ -43,6 +43,9 @@ body {
 .Home__background-mobile {
   background-image: url('/assets/home/background-home-mobile.jpg');
 }
+.Destination__background-mobile {
+  background-image: url('/assets/destination/background-destination-mobile.jpg');
+}
 .glass {
   background: rgba(255, 255, 255, 0.04);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
