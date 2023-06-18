@@ -26,6 +26,9 @@ h5 {
 .navText {
   @apply font-Barlow text-white text-navtext tracking-[2.7px];
 }
+.regularText {
+  @apply font-Barlow text-white text-[0.938rem];
+}
 @tailwind utilities;
 
 #root {
@@ -35,14 +38,30 @@ h5 {
 body {
   min-width: 320px;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 .Home__background-mobile {
-  height: 100vh;
   background-image: url('/assets/home/background-home-mobile.jpg');
 }
 .glass {
-  background: rgba(151, 151, 151, 0.2);
+  background: rgba(255, 255, 255, 0.04);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+.explore-effect {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 9.375rem;
+  width: 9.375rem;
+  border-radius: 50%;
+  transition: height .5s, width .5s;
+}
+.explore:hover + .explore-effect {
+  height: 15.625rem;
+  width: 15.625rem;
 }

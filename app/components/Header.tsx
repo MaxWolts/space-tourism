@@ -13,7 +13,7 @@ export const Header = () => {
     useMenuState(!menuState);
   }
   return (
-    <header className="fixed flex h-fit w-full justify-between">
+    <header className="z-20 fixed flex h-fit w-full justify-between">
       <Image src={logo.src} alt="logo space tourism" width={48} height={48} className={"m-6"}/>
       <div className={`absolute  ${menuState? "right-0" : "right-[-254px]"} top-0 bg-op w-[254px] h-screen glass transition-[right]`}>
         <button className="absolute right-0 mt-[33px] mr-[26px]"
