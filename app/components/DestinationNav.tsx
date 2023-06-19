@@ -8,16 +8,16 @@ const DestinationNav = ({id}: Props) => {
       <nav>
         <ul className="flex gap-4">
           <li className="subHeading2 w-fit">
-            <Link href={"/destination/0"} className={`py-2 ${id === 0 && "border-b-2"}`}>MOON</Link>
+            <Link href={"/destination/0"} className={`py-2 text-lightBlue ${id === 0 && "border-b-2 text-white"}`}>MOON</Link>
           </li>
           <li className="subHeading2">
-            <Link href={"/destination/1"} className={`py-2 ${id === 1 && "border-b-2"}`}>MARS</Link>
+            <Link href={"/destination/1"} className={`py-2 text-lightBlue ${id === 1 && "border-b-2 text-white"}`}>MARS</Link>
           </li>
           <li className="subHeading2">
-            <Link href={"/destination/2"} className={`py-2 ${id === 2 && "border-b-2"}`}>EUROPA</Link>
+            <Link href={"/destination/2"} className={`py-2 text-lightBlue ${id === 2 && "border-b-2 text-white"}`}>EUROPA</Link>
           </li>
           <li className="subHeading2">
-            <Link href={"/destination/3"} className={`py-2 ${id === 3 && "border-b-2"}`}>TITAN</Link>
+            <Link href={"/destination/3"} className={`py-2 text-lightBlue ${id === 3 && "border-b-2 text-white"}`}>TITAN</Link>
           </li>
         </ul>
       </nav>

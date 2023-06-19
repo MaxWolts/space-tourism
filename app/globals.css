@@ -15,19 +15,19 @@ h4 {
   @apply font-Bellefair text-white text-heading4;
 }
 h5 {
-  @apply font-Barlow text-white text-heading5 tracking-[4.75px];
+  @apply font-Barlow text-white text-heading5 tracking-[0.297rem];
 }
 .subHeading1 {
-  @apply font-Bellefair text-white text-heading1;
+  @apply font-Bellefair text-white text-subheading1;
 }
 .subHeading2 {
-  @apply font-Barlow text-white text-subheading2 tracking-[2.35px];
+  @apply font-Barlow text-white text-subheading2 tracking-[0.147rem];
 }
 .navText {
-  @apply font-Barlow text-white text-navtext tracking-[2.7px];
+  @apply font-Barlow text-white text-navtext tracking-[0.169rem];
 }
 .regularText {
-  @apply font-Barlow text-white text-[0.938rem];
+  @apply font-Barlow text-white text-[0.938rem] leading-[1.563rem];
 }
 @tailwind utilities;
 

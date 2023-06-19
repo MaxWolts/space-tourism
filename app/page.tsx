@@ -15,7 +15,7 @@ export default function Home() {
           </p>
         </div>
         <div className="relative w-fit mx-auto mt-20 ">
-          <Link href={"/destination"} className={" z-10 explore relative grid content-center bg-white rounded-full h-[9.375rem] w-[9.375rem] "}>
+          <Link href={"/destination/0"} className={" z-10 explore relative grid content-center bg-white rounded-full h-[9.375rem] w-[9.375rem] "}>
             <p className="text-[1.25rem] font-Bellefair tracking-[1.25px]">Explore</p>
           </Link>
           <div className="explore-effect glass"></div>
