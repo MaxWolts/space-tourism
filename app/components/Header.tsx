@@ -24,19 +24,19 @@ export const Header = () => {
           <ul>
             <li className="navText mx-8">
               <strong>00 </strong>
-              <Link href={"/"}>HOME</Link>
+              <Link href={"/"} onClick={MenuHanddle}>HOME</Link>
             </li>
             <li className="navText m-8">
               <strong>01 </strong>
-              <Link href={"/destination/1"}>DESTINATION</Link>
+              <Link href={"/destination/0"} onClick={MenuHanddle}>DESTINATION</Link>
             </li>
             <li className="navText m-8">
               <strong>02 </strong>
-              <Link href={"crew"}>CREW</Link>
+              <Link href={"/crew"} onClick={MenuHanddle}>CREW</Link>
             </li>
             <li className="navText mx-8">
               <strong>03 </strong>
-              <Link href={"technology"}>TECHNOLOGY</Link>
+              <Link href={"/technology"} onClick={MenuHanddle}>TECHNOLOGY</Link>
             </li>
           </ul>
         </nav>

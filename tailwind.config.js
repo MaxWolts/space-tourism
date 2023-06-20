@@ -19,6 +19,7 @@ module.exports = {
     fontFamily: {
       'Bellefair': ['Bellefair', 'serif'],
       'Barlow': ['Barlow Condensed', 'serif'],
+      'BarlowRegular': ['Barlow', 'serif']
     },
     extend: {
       colors: {
