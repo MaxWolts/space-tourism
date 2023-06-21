@@ -9,12 +9,14 @@ const Crew = () => {
     setSelectedItem(number)
   }
   return (
-    <div className="Destination__background-mobile grid gap-8 min-h-screen px-6 pb-6  justify-center text-center">
+    <div className="Destination__background-mobile grid gap-8 min-h-screen  pb-6  justify-center text-center">
       <div className="navText pt-[5.5rem]">
         <p><strong className="text-lightBlue opacity-25">02</strong> MEET YOUR CREW</p>
       </div>
-      <Slide images={data.crew.map(img => img.images.png)} version2={false} handdleSelectedItem={handdleSelectedItem} selectedItem={selectedItem}/>
-      <div className="grid gap-4">
+      <div className="relative">
+        <Slide images={data.technology.map(img => img.images.landscape)} version2={true} handdleSelectedItem={handdleSelectedItem} selectedItem={selectedItem}/>
+      </div>
+      <div className="grid gap-4 px-6">
         <div className="grid gap-2">
           <span className={"navText font-Bellefair tracking-normal opacity-50"}>{data.crew[selectedItem].role.toUpperCase()}</span>
           <h4 className="text-[1.5rem]">{data.crew[selectedItem].name.toUpperCase()}</h4>
