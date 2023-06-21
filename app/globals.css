@@ -78,9 +78,17 @@ body {
   .Home__background {
     background-image: url('/assets/home/background-home-tablet.jpg');
   }
+  .explore:hover + .explore-effect {
+    height: 25rem;
+    width: 25rem;
+  }
 }
 @media (min-width:1280px) {
   .Home__background {
     background-image: url('/assets/home/background-home-desktop.jpg');
   }
+  /* .explore:hover + .explore-effect {
+    height: 25rem;
+    width: 25rem;
+  } */
 }
