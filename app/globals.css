@@ -40,7 +40,7 @@ body {
   min-height: 100vh;
   box-sizing: border-box;
 }
-.Home__background-mobile {
+.Home__background {
   background-image: url('/assets/home/background-home-mobile.jpg');
 }
 .Destination__background-mobile {
@@ -73,4 +73,14 @@ body {
 .explore:hover + .explore-effect {
   height: 15.625rem;
   width: 15.625rem;
+}
+@media (min-width:768px) {
+  .Home__background {
+    background-image: url('/assets/home/background-home-tablet.jpg');
+  }
+}
+@media (min-width:1280px) {
+  .Home__background {
+    background-image: url('/assets/home/background-home-desktop.jpg');
+  }
 }

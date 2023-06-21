@@ -1,9 +1,11 @@
 import Link from "next/link"
+import mobile from "../public/assets/home/background-home-mobile.jpg"
 
 export default function Home() {
+  console.log(mobile.src);
 
   return (
-    <main className={`z-10 relative w-screen min-h-screen Home__background-mobile bg-cover`}>
+    <main className={`z-10 relative w-screen min-h-screen Home__background bg-cover`}>
       <div className="pt-28 pb-16 px-6 text-center">
         <div className="navText text-lightBlue">
           <p>SO, YOU WANT TO TRAVEL TO</p>
