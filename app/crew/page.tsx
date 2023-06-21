@@ -9,7 +9,7 @@ const Crew = () => {
     setSelectedItem(number)
   }
   return (
-    <div className="Destination__background-mobile grid gap-8 min-h-screen px-6 pb-6  justify-center text-center">
+    <div className="Crew__background-mobile grid gap-8 min-h-screen px-6 pb-6  justify-center text-center">
       <div className="navText pt-[5.5rem]">
         <p><strong className="text-lightBlue opacity-25">02</strong> MEET YOUR CREW</p>
       </div>
