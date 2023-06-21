@@ -3,7 +3,7 @@
 @tailwind base;
 @tailwind components;
 h1 {
-  @apply font-Bellefair text-white text-heading1;
+  @apply font-Bellefair text-white text-[5rem] md:text-heading1;
 }
 h2 {
   @apply font-Bellefair text-white text-heading2;
@@ -27,7 +27,7 @@ h5 {
   @apply font-Barlow text-white text-navtext tracking-[0.169rem];
 }
 .regularText {
-  @apply font-Barlow text-white text-[0.938rem] leading-[1.563rem];
+  @apply font-Barlow text-lightBlue text-[0.938rem] leading-[1.563rem] md:text-[1rem] md:leading-[1.75rem] ;
 }
 @tailwind utilities;
 
@@ -87,8 +87,4 @@ body {
   .Home__background {
     background-image: url('/assets/home/background-home-desktop.jpg');
   }
-  /* .explore:hover + .explore-effect {
-    height: 25rem;
-    width: 25rem;
-  } */
 }

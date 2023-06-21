@@ -8,8 +8,8 @@ export default function Home() {
         <div className="navText text-lightBlue">
           <p className="md:text-[1.25rem]">SO, YOU WANT TO TRAVEL TO</p>
         </div>
-        <h1 className="text-[5rem] md:text-[9.375rem]">SPACE</h1>
-        <div className="regularText md:text-[1rem] md:leading-[1.75rem] text-lightBlue">
+        <h1>SPACE</h1>
+        <div className="regularText ">
           <p>
           Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
           </p>
