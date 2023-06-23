@@ -27,7 +27,7 @@ h5 {
   @apply font-Barlow text-white text-navtext tracking-[0.169rem];
 }
 .regularText {
-  @apply font-Barlow text-lightBlue text-[0.938rem] leading-[1.563rem] md:text-[1rem] md:leading-[1.75rem] ;
+  @apply font-Barlow text-lightBlue text-[0.938rem] leading-[1.563rem] xl:text-[1.125rem] md:text-[1rem] md:leading-[1.75rem] xl:leading-8;
 }
 @tailwind utilities;
 
