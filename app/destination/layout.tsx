@@ -6,7 +6,7 @@ const DestinationLayout = ({
   children: React.ReactNode
 }) => {
   return (
-    <section className='Destination__background-mobile min-h-screen p-6'>
+    <section className='Destination__background bg-cover min-h-screen p-6'>
       {children}
     </section>
   )

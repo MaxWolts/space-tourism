@@ -9,7 +9,7 @@ h2 {
   @apply font-Bellefair text-white text-heading2;
 }
 h3 {
-  @apply font-Bellefair text-white text-heading3;
+  @apply font-Bellefair text-white text-heading3 md:text-[5rem];
 }
 h4 {
   @apply font-Bellefair text-white text-heading4;
@@ -43,7 +43,7 @@ body {
 .Home__background {
   background-image: url('/assets/home/background-home-mobile.jpg');
 }
-.Destination__background-mobile {
+.Destination__background {
   background-image: url('/assets/destination/background-destination-mobile.jpg');
 }
 .Crew__background-mobile {
@@ -78,6 +78,9 @@ body {
   .Home__background {
     background-image: url('/assets/home/background-home-tablet.jpg');
   }
+  .Destination__background {
+    background-image: url('/assets/destination/background-destination-tablet.jpg');
+  }
   .explore:hover + .explore-effect {
     height: 25rem;
     width: 25rem;
@@ -86,5 +89,8 @@ body {
 @media (min-width:1280px) {
   .Home__background {
     background-image: url('/assets/home/background-home-desktop.jpg');
+  }
+  .Destination__background {
+    background-image: url('/assets/destination/background-destination-desktop.jpg');
   }
 }
