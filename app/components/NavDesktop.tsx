@@ -9,6 +9,7 @@ type Props = {
 const NavDesktop = ({ SectionSelectedHanddle, sectionSelected, className }: Props) => {
   return (
     <div className={className + " flex xl:w-3/5 items-center px-12 xl:pl-24 bg-white backdrop-blur-2xl bg-opacity-5"}>
+      <span className="hidden xl:block absolute left-[-47%] top-1/2 translate-y-[-50%] border-white border-b-2 w-[50%] border-opacity-25"></span>
       <nav className="">
         <ul className="flex gap-4 xl:gap-12">
           <li className={"h-24 navText " + `${sectionSelected === 0 && "box-content border-b-2 border-white"}`} >

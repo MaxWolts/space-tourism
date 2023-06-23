@@ -18,8 +18,8 @@ export const Header = () => {
     setSectionSelected(number)
   }
   return (
-    <header className="z-20 fixed flex h-fit w-full justify-between">
-      <Image src={logo.src} alt="logo space tourism" width={48} height={48} className={"m-6"}/>
+    <header className="z-20 fixed flex h-fit w-full justify-between xl:pt-14">
+      <Image src={logo.src} alt="logo space tourism" width={48} height={48} className={"m-6 xl:mx-0 xl:ml-14 xl:my-auto"}/>
       <NavMobile menuState={menuState} MenuHanddle={MenuHanddle} className={"md:hidden"}/>
       <NavDesktop sectionSelected={sectionSelected} className={"hidden md:block"} SectionSelectedHanddle={SectionSelectedHanddle}/>
       <button onClick={MenuHanddle} className={"mt-[33px] mr-[24px] h-fit md:hidden"}>
