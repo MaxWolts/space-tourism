@@ -6,7 +6,7 @@ const DestinationLayout = ({
   children: React.ReactNode
 }) => {
   return (
-    <section className='Destination__background bg-cover min-h-screen p-6 xl:pt-0 px-0'>
+    <section className='Crew__background bg-cover min-h-screen px-0 md:pb-0 xl:pt-0 overflow-x-hidden'>
       <Header/>
       {children}
     </section>

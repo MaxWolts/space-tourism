@@ -1,15 +1,17 @@
 import Image from "next/image"
 import DestinationNav from "../../components/DestinationNav"
 import data from "../../data/data.json"
+
 type Props = {
   params: { id: string}
 }
+
 const Destinations = ({params}: Props) => {
   const id = Number(params.id)
   const info = data.destinations[id]
   if (id || id === 0) {
     return (
-      <div className="grid justify-center justify-items-center gap-12 mt-16 md:mt-28 xl:mt-[30vh]">
+      <div className="grid justify-center justify-items-center gap-12 pt-16 md:pt-28 xl:pt-[4.75rem] px-6">
         <div className="navText md:text-xl md:justify-self-start xl:text-[1.75rem]">
           <p><strong className="text-lightBlue opacity-25 ">01</strong> PICK YOUR DESTINATION</p>
         </div>

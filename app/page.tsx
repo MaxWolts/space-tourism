@@ -1,10 +1,13 @@
 import Link from "next/link"
+import { Header } from "./components/Header"
+
 
 export default function Home() {
 
   return (
-    <main className={`z-10 relative w-full min-h-screen Home__background bg-cover`}>
-      <div className="pt-28 pb-16 md:pb-20 px-6 text-center md:pt-52 md:px-0 md:mx-auto xl:flex xl:items-end xl:h-screen xl:m-0 xl:text-left xl:pb-[16vh] xl:max-w-7xl xl:mx-auto">
+    <main className={`z-10 relative w-full min-h-screen Home__background bg-cover `}>
+      <Header/>
+      <div className="pt-14 pb-16 md:pb-20 px-6 text-center md:px-0 md:pt-[6.625rem] md:px-0 md:mx-auto xl:flex xl:items-end xl:m-0 xl:text-left xl:pb-[16vh] xl:max-w-7xl xl:mx-auto xl:h-fit">
         <div className="max-w-md mx-auto">
           <div className="navText text-lightBlue">
             <p className="md:text-[1.25rem] xl:text-[1.75rem] xl:tracking-[0.295rem]">SO, YOU WANT TO TRAVEL TO</p>
