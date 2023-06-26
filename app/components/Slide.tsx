@@ -43,14 +43,14 @@ export const Slide = ({images, handdleSelectedItem, selectedItem, version2}: Pro
           {images.map( (img, index) => {
             return (
               <div key={index} className={"w-[100%] flex justify-center min-w-[100%] "} id={ "slide-" + index }>
-                <Image className={`${version2? "h-[170px] w-full" : "h-56 w-auto md:h-[35.75rem] "} `}   src={"/"+img} alt={"crew photograph"} width={600} height={600}/>
+                <Image className={`${version2? "h-[170px] w-full" : "h-56 w-auto md:h-[35.75rem] xl:h-[44.5rem]"} `}   src={"/"+img} alt={"crew photograph"} width={600} height={600}/>
               </div>
             )
           }
           )}
         </div>
       </div>
-      <div className="flex gap-2 justify-center z-10 mt-8" >
+      <div className="flex gap-2 justify-center z-10 mt-8 xl:mt-0" >
         {version2? generateSelectItemV2(images, selectedItem, handdleSelectedItem):
           generateSelectItem(images, selectedItem, handdleSelectedItem)
         }

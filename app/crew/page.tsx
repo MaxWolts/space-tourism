@@ -11,8 +11,8 @@ const Crew = () => {
     setSelectedItem(number)
   }
   return (
-    <div className="Crew__background bg-cover grid gap-8 min-h-screen px-6 pb-6 pt-[5.5rem] md:pt-[8.5rem] justify-center text-center md:pb-0 xl:text-left">
-      <div className="relative navText md:text-[1.25rem] md:left-[-60%] xl:left-0">
+    <div className="Crew__background bg-cover grid gap-8 min-h-screen px-6 pb-6 pt-[5.5rem] md:pt-[8.5rem] justify-center text-center md:pb-0 xl:text-left ">
+      <div className="relative navText md:text-[1.25rem] md:left-[-60%] xl:left-0 xl:text-[1.75rem] xl:tracking-[0.267rem]">
         <p><strong className="text-lightBlue opacity-25">02</strong> MEET YOUR CREW</p>
       </div>
       <div className="flex flex-col gap-4 md:flex-col-reverse max-w-[28.625rem] xl:grid xl:grid-cols-2 xl:rtl xl:max-w-[80vw]" style={{direction:"rtl"}}>
