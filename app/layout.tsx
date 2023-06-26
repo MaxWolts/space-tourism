@@ -2,6 +2,11 @@ import { Header } from "./components/Header"
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+type Props = {
+  params: { id: string}
+  children: React.ReactNode
+}
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,10 +16,11 @@ export const metadata = {
 }
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+  children,params
+}: Props) {
+  const id = Number(params.id)
+  console.log(id);
+
   return (
     <html lang="en">
       <body className={inter.className}>

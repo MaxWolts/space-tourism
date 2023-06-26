@@ -46,7 +46,7 @@ body {
 .Destination__background {
   background-image: url('/assets/destination/background-destination-mobile.jpg');
 }
-.Crew__background-mobile {
+.Crew__background {
   background-image: url('/assets/crew/background-crew-mobile.jpg');
 }
 .Technology__background-mobile {
@@ -81,6 +81,9 @@ body {
   .Destination__background {
     background-image: url('/assets/destination/background-destination-tablet.jpg');
   }
+  .Crew__background {
+    background-image: url('/assets/crew/background-crew-tablet.jpg');
+  }
   .explore:hover + .explore-effect {
     height: 25rem;
     width: 25rem;
@@ -92,5 +95,8 @@ body {
   }
   .Destination__background {
     background-image: url('/assets/destination/background-destination-desktop.jpg');
+  }
+  .Crew__background {
+    background-image: url('/assets/crew/background-crew-desktop.jpg');
   }
 }
