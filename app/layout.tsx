@@ -3,7 +3,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 
 type Props = {
-  params: { id: string}
   children: React.ReactNode
 }
 
@@ -16,10 +15,8 @@ export const metadata = {
 }
 
 export default function RootLayout({
-  children,params
+  children,
 }: Props) {
-  const id = Number(params.id)
-  console.log(id);
 
   return (
     <html lang="en">
