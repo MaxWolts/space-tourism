@@ -7,7 +7,7 @@ const DestinationLayout = ({
 }) => {
   return (
     <section className='Crew__background bg-cover min-h-screen px-0 md:pb-0 xl:pt-0 overflow-x-hidden'>
-      <Header/>
+      <Header itemSelected={2}/>
       {children}
     </section>
   )
