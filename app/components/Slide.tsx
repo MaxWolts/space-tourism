@@ -15,7 +15,7 @@ export const Slide = ({images, version2}: Props) => {
           {images.map( (img, index) => {
             return (
               <div key={index} className={"w-[100%] flex justify-center min-w-[100%] "} id={ "slide-" + index }>
-                <Image className={`${version2? "h-[170px] w-full" : "h-56 w-auto md:h-[35.75rem] xl:h-[40rem]"} `}   src={"/"+img} alt={"crew photograph"} width={600} height={600}/>
+                <Image className={`${version2? "h-[170px] w-full md:h-[20.688rem]" : "h-56 w-auto md:h-[35.75rem] xl:h-[40rem]"} `}   src={"/"+img} alt={"crew photograph"} width={1000} height={1000}/>
               </div>
             )
           }
