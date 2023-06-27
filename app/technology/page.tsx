@@ -29,9 +29,8 @@ const Teachnology = () => {
 
   return (
     <>
-      <Header itemSelected={3}/>
-      <div className="Technology__background-mobile grid gap-8 min-h-screen  pb-6  justify-center text-center">
-        <div className="navText pt-[5.5rem]">
+      <div className=" grid gap-8 min-h-screen pb-6 justify-center text-center">
+        <div className="navText">
           <p><strong className="text-lightBlue opacity-25">03</strong> SPACE LAUNCH 101</p>
         </div>
         <div className="relative">
