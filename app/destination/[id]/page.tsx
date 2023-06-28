@@ -11,7 +11,7 @@ const Destinations = ({params}: Props) => {
   const info = data.destinations[id]
   if (id || id === 0) {
     return (
-      <div className="grid justify-center justify-items-center gap-12 pt-16 md:pt-28 xl:pt-[4.75rem] px-6">
+      <div className="grid justify-center justify-items-center gap-12 pt-2 md:pt-28 xl:pt-[4.75rem] px-6">
         <div className="navText md:text-xl md:justify-self-start xl:text-[1.75rem]">
           <p><strong className="text-lightBlue opacity-25 ">01</strong> PICK YOUR DESTINATION</p>
         </div>
