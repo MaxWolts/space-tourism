@@ -11,11 +11,11 @@ const Destinations = ({params}: Props) => {
   const info = data.destinations[id]
   if (id || id === 0) {
     return (
-      <div className="grid justify-center justify-items-center gap-12 pt-2 md:pt-28 xl:pt-[4.75rem] px-6">
-        <div className="navText md:text-xl md:justify-self-start xl:text-[1.75rem]">
+      <div className="grid justify-center justify-items-center gap-12  md:pt-28 xl:pt-[4.75rem] px-6 xl:px-0 xl:w-screen">
+        <div className="navText md:text-xl md:justify-self-start xl:text-[1.75rem] xl:ml-40">
           <p><strong className="text-lightBlue opacity-25 ">01</strong> PICK YOUR DESTINATION</p>
         </div>
-        <div className="grid justify-items-center gap-7 xl:grid-cols-[minmax(27.813rem,_1fr)_minmax(27.813rem,_1fr)] xl:gap-[9.813rem]">
+        <div className="grid justify-items-center gap-7 xl:flex xl:justify-evenly xl:gap-[9.813rem] xl:w-screen xl:max-w-[1444px]">
           <Image src={ "/"+info.images.png} className={"h-[18.75rem] w-[18.75rem] xl:w-[27.813rem] xl:h-[27.813rem]"} width={170} height={170} alt={info.name}/>
           <div className="grid justify-items-center gap-7">
             <DestinationNav id={id} />
