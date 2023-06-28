@@ -18,7 +18,7 @@ export const Header = ({itemSelected}:Props) => {
   }
 
   return (
-    <header className="z-20 sticky flex h-fit w-full justify-between xl:pt-14">
+    <header className="z-20 sticky top-0 flex h-fit w-full justify-between xl:pt-14 overflow-x-clip">
       <Image src={logo.src} alt="logo space tourism" width={48} height={48} className={"m-6 xl:mx-0 xl:ml-14 xl:my-auto"}/>
       <NavMobile menuState={menuState} MenuHanddle={MenuHanddle} className={"md:hidden"}/>
       <NavDesktop className={"hidden md:block"} itemSelected={itemSelected}/>

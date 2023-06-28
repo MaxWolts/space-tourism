@@ -5,7 +5,7 @@ import { Header } from "./components/Header"
 export default function Home() {
 
   return (
-    <main className={`z-10 relative w-full min-h-screen Home__background bg-cover overflow-x-hidden`}>
+    <div className={`z-10 relative w-full min-h-screen Home__background bg-cover`}>
       <Header itemSelected={0}/>
       <div className="pt-14 pb-16 md:pb-20 px-6 text-center md:pt-[6.625rem] md:px-0 md:mx-auto xl:flex xl:items-end xl:m-0 xl:text-left xl:pb-[16vh] xl:max-w-full xl:h-fit xl:pt-64 xl:justify-around">
         <div className="max-w-md mx-auto xl:m-0">
@@ -26,6 +26,6 @@ export default function Home() {
           <div className="explore-effect glass"></div>
         </div>
       </div>
-    </main>
+    </div>
   )
 }
