@@ -23,7 +23,7 @@ const Crew = () => {
   return (
     <>
       <div className=" grid gap-8 px-6 md:pt-10 justify-center text-center md:pb-0 xl:text-left xl:w-screen xl:justify-evenly">
-        <div className="flex flex-col gap-4 md:flex-col-reverse max-w-[28.625rem] xl:flex-row xl:w-screen xl:max-w-[1440px] xl:gap-0 xl:justify-evenly" style={{direction:"rtl"}}>
+        <div className="flex flex-col gap-4 md:flex-col-reverse max-w-[28.625rem] xl:flex-row xl:w-screen xl:max-w-[1440px] xl:gap-0 xl:justify-between xl:pl-[8vw]" style={{direction:"rtl"}}>
           <div className="md:hidden relative navText md:text-[1.25rem] md:left-[-60%] xl:left-0 xl:text-[1.75rem] xl:tracking-[0.267rem]">
             <p><strong className="text-lightBlue opacity-25">02</strong> MEET YOUR CREW</p>
           </div>
