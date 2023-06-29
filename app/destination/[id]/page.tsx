@@ -16,7 +16,7 @@ const Destinations = ({params}: Props) => {
           <p><strong className="text-lightBlue opacity-25 ">01</strong> PICK YOUR DESTINATION</p>
         </div>
         <div className="grid justify-items-center gap-7 xl:flex xl:justify-evenly xl:gap-[9.813rem] xl:w-screen xl:max-w-[1444px]">
-          <Image src={ "/"+info.images.png} className={"h-[18.75rem] w-[18.75rem] xl:w-[27.813rem] xl:h-[27.813rem]"} width={170} height={170} alt={info.name}/>
+          <Image src={info.images.png} className={"h-[18.75rem] w-[18.75rem] xl:w-[27.813rem] xl:h-[27.813rem]"} width={170} height={170} alt={info.name}/>
           <div className="grid justify-items-center gap-7">
             <DestinationNav id={id} />
             <div className="text-center mb-4">

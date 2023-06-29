@@ -16,7 +16,7 @@ export const Slide = ({images, version2, imagesV2, indexExt}: Props) => {
           {images && images.map( (img, index) => {
             return (
               <div key={index} className={"w-[100%] flex justify-center min-w-[100%] " + `${!version2 && " xl:items-end "}` + `${version2 && "xl:justify-end"}`} id={ "slide-" + index }>
-                <Image className={`${version2? "h-[170px] w-full md:h-[20.688rem] xl:h-[32.938rem] xl:w-fit" : "h-56 w-auto md:h-[35.75rem] xl:h-fit"} `}   src={"/"+img} alt={"crew photograph"} width={1000} height={1000}/>
+                <Image className={`${version2? "h-[170px] w-full md:h-[20.688rem] xl:h-[32.938rem] xl:w-fit" : "h-56 w-auto md:h-[35.75rem] xl:h-fit"} `}   src={img} alt={"crew photograph"} width={1000} height={1000}/>
               </div>
             )
           }
@@ -24,7 +24,7 @@ export const Slide = ({images, version2, imagesV2, indexExt}: Props) => {
           {imagesV2 && imagesV2.map( (img, index) => {
             return (
               <div key={index} className={"w-[100%] flex justify-center min-w-[100%] " + `${version2 && "xl:flex xl:justify-end"}`} id={ `slide-`+`${indexExt? indexExt+index:index }` }>
-                <Image className={`${version2? "h-[170px] w-full md:h-[20.688rem] xl:h-[32.938rem] xl:w-fit" : "h-56 w-auto md:h-[35.75rem] xl:h-[40rem]"} `}   src={"/"+img} alt={"crew photograph"} width={1000} height={1000}/>
+                <Image className={`${version2? "h-[170px] w-full md:h-[20.688rem] xl:h-[32.938rem] xl:w-fit" : "h-56 w-auto md:h-[35.75rem] xl:h-[40rem]"} `}   src={img} alt={"crew photograph"} width={1000} height={1000}/>
               </div>
             )
           }
